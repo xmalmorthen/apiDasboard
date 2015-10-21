@@ -61,6 +61,15 @@ namespace apiDashboard.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Cabeceras incompletas.
+        /// </summary>
+        internal static string REST_Service_Message_CABECERAS_INCOMPLETAS {
+            get {
+                return ResourceManager.GetString("REST_Service_Message_CABECERAS_INCOMPLETAS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Ocurrió un error al procesar la solicitud, favor de verificar que sea un comando válido..
         /// </summary>
         internal static string REST_Service_Message_ERROR {
@@ -75,6 +84,15 @@ namespace apiDashboard.Properties {
         internal static string REST_Service_Message_EXITO {
             get {
                 return ResourceManager.GetString("REST_Service_Message_EXITO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Permiso denegado para ejecutar el/los comando(s).
+        /// </summary>
+        internal static string REST_Service_Message_PERMISO_DENEGADO {
+            get {
+                return ResourceManager.GetString("REST_Service_Message_PERMISO_DENEGADO", resourceCulture);
             }
         }
         

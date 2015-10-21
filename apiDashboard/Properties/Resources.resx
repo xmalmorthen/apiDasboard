@@ -117,11 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="REST_Service_Message_CABECERAS_INCOMPLETAS" xml:space="preserve">
+    <value>Cabeceras incompletas</value>
+  </data>
   <data name="REST_Service_Message_ERROR" xml:space="preserve">
     <value>Ocurrió un error al procesar la solicitud, favor de verificar que sea un comando válido.</value>
   </data>
   <data name="REST_Service_Message_EXITO" xml:space="preserve">
     <value>Proceso realizado con éxito</value>
+  </data>
+  <data name="REST_Service_Message_PERMISO_DENEGADO" xml:space="preserve">
+    <value>Permiso denegado para ejecutar el/los comando(s)</value>
   </data>
   <data name="REST_Service_NoResultado" xml:space="preserve">
     <value>Sin información de respuesta!!!</value>
