@@ -30,14 +30,12 @@ namespace apiDashboard.Controllers
                 if (!valida.query(querys, command))
                     throw new System.FormatException(Resources.REST_Service_Message_PERMISO_DENEGADO);
 
-                Dictionary<short, Models.structs.response> dataResults = new Dictionary<short, Models.structs.response>();
-                short idx = 1;
+                List<Models.structs.response> dataResults = new List<Models.structs.response>();
                 foreach (string item in querys)
                 {
                     Models.structs.response data = new Models.structs.response();
 
                     data.Command = item.Replace(System.Environment.NewLine, string.Empty);
-
                     switch (WebApiConfig.DbCnnCnfg["Provider"].Trim().ToLower())
                     {
                         case "sqlserver":
@@ -48,8 +46,7 @@ namespace apiDashboard.Controllers
                         break;
                     }
 
-                    dataResults.Add(idx, data);
-                    idx++;
+                    dataResults.Add(data);
                 }
                 return Libs.response.make(dataResults);
             }

@@ -15,8 +15,8 @@ namespace apiDashboard.Models.structs
         }
 
 
-        private Dictionary<short, Models.structs.response> _Response = new Dictionary<short, Models.structs.response>();
-        public Dictionary<short, Models.structs.response> Response
+        private List<Models.structs.response> _Response = new List<Models.structs.response>();
+        public List<Models.structs.response> Response
         {
             get { return _Response; }
             set { _Response = value; }

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiDashboard", "apiDashboar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataTestgenerator", "dataTestgenerator\dataTestgenerator.csproj", "{9187FC2A-F726-4998-87BF-6A939377438A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTApiTest", "RESTApiTest\RESTApiTest.csproj", "{2D4509BC-80C3-4A57-A142-354775A945F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{9187FC2A-F726-4998-87BF-6A939377438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9187FC2A-F726-4998-87BF-6A939377438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9187FC2A-F726-4998-87BF-6A939377438A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4509BC-80C3-4A57-A142-354775A945F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4509BC-80C3-4A57-A142-354775A945F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4509BC-80C3-4A57-A142-354775A945F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4509BC-80C3-4A57-A142-354775A945F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

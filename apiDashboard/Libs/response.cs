@@ -9,12 +9,12 @@ namespace apiDashboard.Libs
 {
     public static class response
     {
-        public static service make(Dictionary<short, Models.structs.response> Response = null)
+        public static service make(List<Models.structs.response> Response = null)
         {
             return response.make(Resources.REST_Service_Status_code_EXITO,Resources.REST_Service_Status_response_EXITO, Resources.REST_Service_Message_EXITO, Response);
         }
 
-        public static service make(Dictionary<short, Models.structs.response> Response = null, Boolean validateResponse = false)
+        public static service make(List<Models.structs.response> Response = null, Boolean validateResponse = false)
         {
             return response.make(Resources.REST_Service_Status_code_EXITO, Resources.REST_Service_Status_response_EXITO, Resources.REST_Service_Message_EXITO, Response, validateResponse);
         }
@@ -22,7 +22,7 @@ namespace apiDashboard.Libs
         public static service make(string Status_code,
                                    string Status_response, 
                                    string Message,
-                                   Dictionary<short, Models.structs.response> Response = null,
+                                   List<Models.structs.response> Response = null,
                                    Boolean validateResponse = true)
         {
             service Service = new service();
